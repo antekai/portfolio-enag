@@ -1,0 +1,33 @@
+@import "../../../config/_variables.scss";
+
+.container {
+	margin: 0 25%;
+	max-width: $container;
+	padding-left: $distance;
+	padding-right: $distance;
+	font-size:110%;
+	@include for-tablet-landscape-down{
+		margin: 0 5%;
+	}
+	h1,h2,h3,h4,h5{
+		line-height: 2;
+	}
+	p {
+		line-height: 1.65;
+	}
+	img{
+		margin: 5px;
+	}
+}
+
+// .text {
+// 	max-width: $container-text;
+
+// 	// p {
+// 	// 	font-size: 1.25rem;
+// 	// 	letter-spacing: -.003em;
+// 	// 	line-height: 1.58;
+// 	// 	--baseline-multiplier: 0.179;
+// 	// 	--x-height-multiplier: 0.35;
+// 	// }
+// }

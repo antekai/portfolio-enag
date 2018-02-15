@@ -1,0 +1,60 @@
+@import '../../config/variables';
+
+// Markdown content
+.content {
+	margin: 0 auto;
+	padding-bottom: $distance;
+	padding-top: $distance;
+}
+
+p {
+	line-height: 1.65;
+}
+
+// Markdown frontmatter 
+.headerWrapper {
+	margin-bottom: 3rem;
+	margin-top: 1rem;
+	min-height: 20rem;
+	position: relative;
+	width: 100%;
+}
+
+.header {
+	background-color: $background-color;
+	color: #fff;
+	height: 18rem;
+	padding: 5rem $distance;
+	position: absolute;
+	text-align: center;
+	transition: all .5s;
+	width: 100%;
+}
+
+.title {
+	margin: 0;
+}
+
+.information {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.infoBlock {
+	display: flex;
+	flex-direction: column;
+	margin: $distance $distance;
+	text-align: left;
+}
+
+.top {
+	font-size: 80%;
+	margin-bottom: .5rem;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.bottom {
+	font-size: 125%;
+}

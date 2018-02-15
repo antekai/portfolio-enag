@@ -1,0 +1,56 @@
+// Custom Styles for Emma
+// Using our variables
+
+@import "../../config/_variables.scss";
+
+.container {
+	padding-top: 6.25rem;
+}
+
+.vibrant-canvas {
+	display: none;
+}
+
+.bm-burger-button {
+	height: 2rem;
+	position: fixed;
+	right: 2rem;
+	top: 1.2rem;
+	width: 2.5rem;
+}
+
+.bm-burger-bars {
+	background: #373a47;
+	height:10%!important;
+
+
+}
+
+.bm-cross-button {
+	height: 2rem;
+	right: 2rem !important;
+	top: 1.2rem !important;
+	transform: scale(2.5);
+	width: 2rem;
+}
+
+.bm-cross {
+	background: #fff;
+	width:1px!important;
+	
+}
+
+.bm-menu {
+	background: $brand-primary !important;
+	font-size: 1.15em;
+	padding: 2.5em 1.5em 0;
+}
+
+.bm-morph-shape {
+	fill: #373a47;
+}
+
+.bm-item-list {
+	color: #b8b7ad;
+	padding: 0.8em;
+}
