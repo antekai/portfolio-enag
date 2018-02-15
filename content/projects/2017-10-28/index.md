@@ -1,9 +1,9 @@
 ---
-client: "LekoArts"
-title: "LekoArts - Your theme creator!"
+client: "GRAB"
+title: "GRAB"
 cover: "./no_mockup_5-grab.png"
 date: "2016-10-28"
-service: "Theme"
+service: "Design, Development"
 ---
 # Description
 
