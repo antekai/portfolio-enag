@@ -57,9 +57,10 @@ $black: #000;
 
 $content-width: 100vw;
 $gutter: 2em;
-$columns: 4;
+$columns: 5;
 
 $row-size: calc( (#{$content-width} - #{$gutter} * (#{$columns} - 1)) / #{$columns} );
+//calc( (#{$content-width} - #{$gutter} * (#{$columns} - 1)) / #{$columns} );
 
 // Configure the max-width of your containers here
 // Try to keep it in sync with maxWidth of `gatsby-remark-images`
