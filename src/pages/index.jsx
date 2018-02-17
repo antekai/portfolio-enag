@@ -15,8 +15,9 @@ export default class Index extends React.Component {
 				<Helmet>
 					<title>{config.siteTitle}</title>
 				</Helmet>
-           
+
 				<div>
+					<Hero>Andreas Teneketzoglou</Hero>
 					<ProjectListing projectEdges={projectEdges} />
 				</div>
 				<Footer />

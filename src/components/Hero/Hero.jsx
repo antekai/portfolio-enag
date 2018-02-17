@@ -6,7 +6,7 @@ export default class Hero extends React.Component {
 	render() {
 		const { children } = this.props
 		return (
-			<div className={styles.header}>
+			<div className={styles.hero}>
 				<Fade down tag="h1">
 					{children}
 				</Fade>
