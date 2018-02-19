@@ -17,7 +17,7 @@ export default class Index extends React.Component {
 				</Helmet>
 
 				<div>
-					<Hero>Andreas Teneketzoglou</Hero>
+					<Hero title="Web Developer" subtitle="Andreas Teneketzoglou" />
 					<ProjectListing projectEdges={projectEdges} />
 				</div>
 				<Footer />

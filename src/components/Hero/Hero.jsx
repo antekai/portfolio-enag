@@ -4,12 +4,16 @@ import styles from './Hero.module.scss'
 
 export default class Hero extends React.Component {
 	render() {
-		const { children } = this.props
+		const { title, subtitle } = this.props
 		return (
 			<div className={styles.hero}>
 				<Fade down tag="h1">
-					{children}
+					{title}
 				</Fade>
+				<Fade down tag="h2">
+					{subtitle}
+				</Fade>
+				
 			</div>
 		)
 	}
