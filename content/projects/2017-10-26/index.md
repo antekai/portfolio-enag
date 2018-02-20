@@ -1,9 +1,9 @@
 ---
-client: "Griechiche Akademiker in Berlin"
-title: "Neue Griechiche Migration"
+client: "Neue Griechische Migration"
+title: "Neue Griechische Migration"
 cover: "./mockup-nem.jpg"
 date: "2017-10-26"
-service: "Branding, Web development"
+service: "Branding, Website"
 ---
 # Description
 

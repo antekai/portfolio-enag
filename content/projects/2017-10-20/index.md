@@ -1,9 +1,9 @@
 ---
-client: "Gastronomie von anfang an"
-title: "GaVan"
+client: "Gastronomie von Anfang an"
+title: "Gastronomie von Anfang an"
 cover: "./gavan-mock.png"
 date: "2017-10-20"
-service: "Landing page, PWA"
+service: "Website, PWA"
 ---
 # Description
 

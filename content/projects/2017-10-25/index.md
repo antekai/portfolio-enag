@@ -1,9 +1,9 @@
 ---
-client: "bbbb"
-title: "bbbb"
+client: "Griechische Akademiker in Berlin und Brandenburg e.V."
+title: "Griechische Akademiker in Berlin und Brandenburg e.V."
 cover: "./no_mockup_5-grab.png"
 date: "2017-10-25"
-service: "Wordpress website"
+service: "Website"
 ---
 # Description
 

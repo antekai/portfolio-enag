@@ -1,5 +1,5 @@
 ---
-client: "na"
+client: "Workshop"
 title: "Workshop"
 cover: "./workshop.jpg"
 date: "2016-10-28"

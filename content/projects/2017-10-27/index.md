@@ -1,5 +1,5 @@
 ---
-client: "nocl"
+client: "Logo, Business Cards"
 title: "Logo, Business Cards"
 cover: "./graphic-design.jpg"
 date: "2017-10-27"
