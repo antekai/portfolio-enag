@@ -1,9 +1,9 @@
 ---
 client: "bbbb"
 title: "bbbb"
-cover: "./blobSphere.jpg"
+cover: "./no_mockup_5-grab.png"
 date: "2017-10-25"
-service: "Art bbb"
+service: "Wordpress website"
 ---
 # Description
 

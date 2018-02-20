@@ -1,9 +1,9 @@
 ---
-client: "CubeRound"
-title: "CubeRound - Make Cubes round!"
-cover: "./cubeRound.jpg"
+client: "Griechiche Akademiker in Berlin"
+title: "Neue Griechiche Migration"
+cover: "./mockup-nem.jpg"
 date: "2017-10-26"
-service: "Website"
+service: "Branding, Web development"
 ---
 # Description
 

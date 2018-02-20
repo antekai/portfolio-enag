@@ -1,9 +1,9 @@
 ---
-client: "SmartTriangle"
-title: "SmartTriangle - Make Triangles smart!"
-cover: "./smartTriangle.jpg"
+client: "nocl"
+title: "Logo, Business Cards"
+cover: "./graphic-design.jpg"
 date: "2017-10-27"
-service: "Art Direction"
+service: "Graphic design"
 ---
 # Description
 

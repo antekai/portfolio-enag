@@ -1,9 +1,9 @@
 ---
-client: "GRAB"
-title: "GRAB"
-cover: "./no_mockup_5-grab.png"
+client: "na"
+title: "Workshop"
+cover: "./workshop.jpg"
 date: "2016-10-28"
-service: "Design, Development"
+service: "Web development"
 ---
 # Description
 
@@ -12,7 +12,7 @@ I hope you like this theme and enjoy working with it. I've also made other theme
 
 If you want to see more of my work I recommend visiting my [personal portfolio](https://www.lekoarts.de). By pledging to my [patreon campaign](https://www.patreon.com/lekoarts) you help me making more themes and creating more tutorials. Thanks!
 
-![](./lekoarts.jpg)
+![](./workshop.jpg)
 
 
 Test Text
@@ -21,7 +21,7 @@ Test Text
 dsadsadsadsadsa
 
 ### Title 3
-![](./no_mockup_5-grab.png)
+![](./workshop.jpg)
 List
 - asas
 - asdd

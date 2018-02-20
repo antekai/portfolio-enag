@@ -1,9 +1,9 @@
 ---
-client: "aaaaa"
-title: "aaaaa"
-cover: "./smartTriangle.jpg"
+client: "Gastronomie von anfang an"
+title: "GaVan"
+cover: "./gavan-mock.png"
 date: "2017-10-20"
-service: "Art Direction"
+service: "Landing page, PWA"
 ---
 # Description
 
