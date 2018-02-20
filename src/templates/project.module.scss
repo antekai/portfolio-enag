@@ -6,9 +6,13 @@
 	padding-bottom: $distance;
 	padding-top: $distance;
 }
-
+h1,h2 {
+	margin-bottom: .4em;
+	margin-top: 2em; 
+}
 p {
 	line-height: 1.65;
+	padding-left: 0; 
 }
 
 // Markdown frontmatter 

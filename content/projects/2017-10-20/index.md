@@ -5,6 +5,71 @@ cover: "./gavan-mock.png"
 date: "2017-10-20"
 service: "Website, PWA"
 ---
-# Description
+## Description
+GvA's landing page is a Static Progressive Web App(PWA) and was originally designed and developed at September 2016.  
+ 
+![](./gavan-mock.png)
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.
+**URL:** https://gastronomievonanfangan.de/  
+**Documentation and Styleguide:** https://gastronomievonanfangan.de/pattern-library/  
+**Compatibility:** All modern browsers (IE10+). Offline functionality (PWA) compatibility with firefox(44+), chrome(45+) browsers.  
+
+## Credits
+Content strategy, web design & development, deployment, apache webserver configuration, testing - optimization and maintenance
+Andreas Teneketzoglou
+
+Logo design and branding directions
+—LOGOWERK
+
+
+## Stack
+CSS: Bootstrap, Animate.css, sass  
+JS: Bootstrap, jQuery, jqBootstrapValidation, modernizr, Google Maps API  
+Build tools: npm scripts  
+Development Dependecies: node-sass, purify-css, autoprefixer, critical, eslint, uglifyJs, imagemin (imagemin-webp), svgo, browsersync, onchange  
+Version control: Git, Bitbucket  
+
+## Testing & optimization
+- General - JS (eslint), Html (W3c Validator),
+- Accesibility (wave)
+- Perfomance - Pagespeed Insights (score 98), Webpagetest (grade A)
+- PWA - Lighthouse (PWA score 90+)
+- Security - SecurityHeaders.io (grade A)
+- SEO - Rankgen (SEO score A)
+- CacheTest - Gift Of Speed
+- Browser Testing - Browsershots
+- Favicon - Favicon checker
+
+####SEARCH ENGINE OPTIMIZATION (SEO)
+
+- Structured Data (jsonld)
+- Robots.txt setup
+- Sitemap.xml setup
+- Google Search Console website registration
+- Open graph, twitter card meta
+- Created/linked social media pages (linkedin,xing,facebook) but no social media or any kind of marketing
+
+####PERFORMANCE OPTIMIZATION
+
+- Gzip compression (apache config)
+- CSS-JS Minification, CSS purification (on build)
+- Webp images with fallback to progressive jpgs (on build)
+- Http/2 protocol
+- Inline Critical CSS (on build)
+- Caching assets (apache config)
+- Service worker registration for offline functionality
+
+####SECURITY OPTIMIZATION
+
+- Serving Static content
+- SSL certificate
+- HTTP Strict Transport Security - serve only over https (apache config)
+- Protect against XSS attacks (apache config)
+- Protect against page-framing and click-jacking (apache config)
+- Protect against content-sniffing (apache config)
+- Content Security Policy (apache config)
+- Referrer-Policy (apache config)
+
+####ANALYTICS
+
+- Google analytics setup (paired with google search console)

@@ -13,12 +13,13 @@
 		text-transform: lowercase;
 	}
 	h2 {
+		display: inline-block;
+		padding-top: 1em;
+		position: relative;
 		text-transform: capitalize;
-		padding-top:1em;
-		position:relative;
-		display:inline-block;	
+			
 	}
-	h2:after{
+	h2:after {
 		content: "";
 		display: block;
 		position: absolute;
@@ -28,6 +29,6 @@
 		left: 50%;
 		bottom: -2px;
 		transform: translateX(-50%);
-  		z-index:-2;
+  		z-index: -2;
 	}
 }
