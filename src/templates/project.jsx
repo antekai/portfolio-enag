@@ -8,6 +8,7 @@ import SEO from '../components/SEO/SEO'
 import Footer from '../components/Footer/Footer'
 import Container from '../components/Container/Container'
 import styles from './project.module.scss'
+import Hero from '../components/Hero/Hero'
 
 export default class Project extends React.Component {
 	render() {
@@ -23,7 +24,7 @@ export default class Project extends React.Component {
 			<div className="container project-container">
 				<Helmet title={`${project.title} | ${config.siteTitle}`} />
 				<SEO postPath={slug} postNode={postNode} postSEO />
-				<div className={styles.headerWrapper}>
+				{/* <div className={styles.headerWrapper}>
 					<Palette image={imageURL}>
 						{palette => (
 							<section
@@ -79,6 +80,10 @@ export default class Project extends React.Component {
 							</section>
 						)}
 					</Palette>
+				</div> */}
+				<div className={styles.hero}>
+				<Hero title={project.title} subtitle={project.service} />
+				
 				</div>
 				<Container>
 					<div

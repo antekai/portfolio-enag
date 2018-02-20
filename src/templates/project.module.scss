@@ -4,17 +4,16 @@
 .content {
 	margin: 0 auto;
 	padding-bottom: $distance;
-	padding-top: $distance;
-}
-h1,h2 {
+	padding-top: 0; //$distance
+	h1,h2 {
 	margin-bottom: .4em;
 	margin-top: 2em; 
-}
-p {
+	}
+	p {
 	line-height: 1.65;
 	padding-left: 0; 
+	}
 }
-
 // Markdown frontmatter 
 .headerWrapper {
 	margin-bottom: 3rem;
