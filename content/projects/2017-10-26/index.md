@@ -14,12 +14,12 @@ NEM (Νέα Ελληνική Μετανάστευση - New Greek Migration) was
 **Compatibility:**All modern browsers (IE10+).   
 
 ## Service
-- Branding, content strategy, website design, development and deployment. 
-- Google analytics setup, management and reporting (google data studio). 
+- Content management, website design, development and deployment. 
+- Branding, logo, posters (A2,rollup), flyers (A6) design. Program, invitation and guides (brochures) design. 
 - Email-design (mjml) and marketing (mailchimp).  
-- Typeform integration, form analytics and reports.
-- Posters (A2,rollup), flyers (A6) design. Program and guides (brochures) design.  
-
+- [Typeform](https://www.typeform.com/) integration, form analytics and reports.  
+- Google analytics setup, management and reporting (google data studio). 
+ 
 
 <dl><br></br></dl>
 
