@@ -8,18 +8,19 @@ service: "Website, PWA"
 ## Description
 GvA's landing page is a Static Progressive Web App(PWA) and was originally designed and developed at September 2016.  
  
-![](./gavan-mock.png)
+![Gastronomie von Anfang an website mockup](./gavan-mock.png)
 
 **URL:** https://gastronomievonanfangan.de/  
 **Documentation and Styleguide:** https://gastronomievonanfangan.de/pattern-library/  
 **Compatibility:** All modern browsers (IE10+). Offline functionality (PWA) compatibility with firefox(44+), chrome(45+) browsers.  
 
-## Credits
-Content strategy, web design & development, deployment, apache webserver configuration, testing - optimization and maintenance
-Andreas Teneketzoglou
+## Service
+- Content strategy, web design, development. 
+- Deployment and webserver (apache) configuration.
+- Testing, optimization, maintenance and documentation. 
+- Facebook, LinkedIn, Xing business pages setup. 
+- Google business and google search console registration. Google analytics integration. 
 
-Logo design and branding directions
-—LOGOWERK
 
 
 ## Stack
