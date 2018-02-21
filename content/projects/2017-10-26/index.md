@@ -5,6 +5,29 @@ cover: "./mockup-nem.jpg"
 date: "2017-10-26"
 service: "Branding, Website"
 ---
-# Description
+NEM (Νέα Ελληνική Μετανάστευση - New Greek Migration) was a conference organized by the [Society of Greek Scientists in Berlin & Brandeburg](http://gr-akademiker-berlin.de/) in October 2017. 
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands.
+
+![NEM website mockup](./mockup-nem.jpg)
+
+**URL:**http://nem2017.de/  
+**Compatibility:**All modern browsers (IE10+).   
+
+## Service
+- Branding, content strategy, website design, development and deployment. 
+- Google analytics setup, management and reporting (google data studio). 
+- Email-design (mjml) and marketing (mailchimp).  
+- Typeform integration, form analytics and reports.
+- Posters (A2,rollup), flyers (A6) design. Program and guides (brochures) design.  
+
+
+<dl><br></br></dl>
+
+*Graphic design(Adobe Illustrator) and e-mail design (MJML) samples:*
+
+![poster NEM](./A3-poster-nem.png)  
+![stream NEM](./stream.png)  
+![program NEM](./nem-program.png)
+![nem e-mail design](./nem-email.png)  
+
+
