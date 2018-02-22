@@ -20,15 +20,17 @@ export default class Index extends React.Component {
 				<div>
 					<Hero title="Web Developer" subtitle="Andreas Teneketzoglou" />
 					<div className="container__icons">
-          <Icon icon="html5" />
-					<Icon icon="css3" />
-          <Icon icon="sass" />
-          <Icon icon="bootstrap" />
-					<Icon icon="javascript" />
-					<Icon icon="graphql" />
-					<Icon icon="git" />
-					<Icon icon="photoshop" />
-					<Icon icon="illustrator" />
+						<Icon icon="html5" />
+						<Icon icon="css3" />
+						<Icon icon="javascript" />
+						<Icon icon="react" />
+						<Icon icon="graphql" />
+						<Icon icon="git" />
+						<Icon icon="bootstrap" />
+						<Icon icon="sass" />						
+						<Icon icon="photoshop" />
+						<Icon icon="illustrator" />
+					
 					</div>
           
 
