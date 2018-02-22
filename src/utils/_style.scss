@@ -4,7 +4,14 @@
 @import "../../config/_variables.scss";
 
 .container {
-	padding-top: 5rem; // 6.25rem
+	padding-top: 4rem; // 6.25rem
+}
+
+.container__icons{
+	display: flex;
+	justify-content: center;
+	margin-top:-5em;
+	margin-bottom: 4em;
 }
 
 .vibrant-canvas {

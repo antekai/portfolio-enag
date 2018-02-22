@@ -6,6 +6,7 @@ import SEO from '../components/SEO/SEO'
 import ProjectListing from '../components/ProjectListing/ProjectListing'
 import Footer from '../components/Footer/Footer'
 import Hero from '../components/Hero/Hero'
+import Icon from '../components/Icons/Icons'
 
 export default class Index extends React.Component {
 	render() {
@@ -15,9 +16,22 @@ export default class Index extends React.Component {
 				<Helmet>
 					<title>{config.siteTitle}</title>
 				</Helmet>
-
+        
 				<div>
 					<Hero title="Web Developer" subtitle="Andreas Teneketzoglou" />
+					<div className="container__icons">
+          <Icon icon="html5" />
+					<Icon icon="css3" />
+          <Icon icon="sass" />
+          <Icon icon="bootstrap" />
+					<Icon icon="javascript" />
+					<Icon icon="graphql" />
+					<Icon icon="git" />
+					<Icon icon="photoshop" />
+					<Icon icon="illustrator" />
+					</div>
+          
+
 					<ProjectListing projectEdges={projectEdges} />
 				</div>
 				<Footer />
