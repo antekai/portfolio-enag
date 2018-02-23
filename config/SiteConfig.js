@@ -1,17 +1,17 @@
 module.exports = {
 	pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
-	siteTitle: 'AndreTe', // Navigation and Site Title
-	siteTitleAlt: 'Andreas Teneketzoglou', // Alternative Site title for SEO
-	siteUrl: 'https://andrete.eu/dev', // Domain of your site. No trailing slash!
+	siteTitle: 'Web developer | Andreas Teneketzoglou', // Navigation and Site Title
+	siteTitleAlt: 'Web developer | Andreas Teneketzoglou', // Alternative Site title for SEO
+	siteUrl: 'https://www.andrete.eu', // Domain of your site. No trailing slash!
 	siteLanguage: 'en', // Language Tag on <html> element
 	siteLogo: '/logos/android-chrome-512x512.png', // Used for SEO and manifest
-	siteDescription: 'Andreas Teneketzoglou | Designer - Developer',
+	siteDescription: 'Web developer | Andreas Teneketzoglou',
 	siteFBAppID: '', // Facebook App ID
 	userTwitter: '', // Twitter Username
 	// og: Meta Tags
-	ogSiteName: 'AndreTe', // Facebook Site Name
-	googleAnalyticsID: '',
-	copyright: '2017 - AndreTe', // Copyright in the footer of the site
+	ogSiteName: 'Web developer | Andreas Teneketzoglou', // Facebook Site Name
+	googleAnalyticsID: 'UA-90911924-1',
+	copyright: '2017 - Andreas Teneketzoglou', // Copyright in the footer of the site
 	// You can translate these three words into your language if you want. They'll be shown on the project page header
 	client: 'Client',
 	date: 'Date',
