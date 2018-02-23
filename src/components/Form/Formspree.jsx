@@ -1,14 +1,28 @@
 
 import React from 'react'
+import styles from './Formspree.module.scss'
+import { FaLinkedin, FaGithubSquare, FaGithubAlt } from 'react-icons/lib/fa'
 
 const Fsform = () => (
-	<div>
-		<form action="https://formspree.io/antekai00@email.com" method="POST">
-			<input type="text" name="name" placeholder="Your name.." />
-			<input type="email" name="_replyto" placeholder="Your e-mail.." />
-            <textarea name="Your message..." placeholder="Your message"></textarea>
-			<input type="submit" value="Send"/>
-		</form>
+	<div className={styles.wrapper}>
+		<div className={styles.contact__info}>
+			<h3>Contact info</h3>
+			<ul className={styles.contact__text}>
+				<li>Andreas Teneketzoglou</li>
+		 		<li>info@andrete.eu</li>
+		 		<li>Berlin,Germany</li>
+		 		<li><FaLinkedin/></li>
+		 	</ul>
+		</div>
+		<div className={styles.contact__form}>
+			<h3>Contact form</h3>
+			<form action="https://formspree.io/antekai00@gmail.com" method="POST">
+				<input type="text" name="name" placeholder="Your name.." />
+				<input type="email" name="_replyto" placeholder="Your e-mail.." />
+				<textarea name="Your message..." placeholder="Your message"></textarea>
+				<input type="submit" value="Send"/>
+			</form>
+		</div>
 	</div>
 )
  

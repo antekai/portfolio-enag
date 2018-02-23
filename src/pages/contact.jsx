@@ -7,6 +7,7 @@ import config from '../../config/SiteConfig'
 import Fsform from '../components/Form/Formspree'
 import Hero from '../components/Hero/Hero'
 
+
 export default class Contact extends React.Component {
 	render() {
 		return (
@@ -14,14 +15,10 @@ export default class Contact extends React.Component {
 				<Helmet title={`Contact | ${config.siteTitle}`} />
 				<Hero title="Contact" subtitle="Just do it!" />
 				<Container text>
-					<h1>Hi!</h1>
-					<p>
-            
-			
-					</p>
-					
+					<Fsform />
 					
 				</Container>
+				
 				<Footer />
 			</div>
 		)
