@@ -30,14 +30,14 @@ export default class Navigation extends Component {
 			<header>
 				<Headroom calcHeightOnResize disableInlineStyles>
 					<Fade down duration={2000} className={styles.wrapper}>
-					<Logo260/>
+					
 						<div className={styles.name}>
-							<span>
+						<Link to="/"><Logo260/></Link>
+							{/* <span>
 								<Link to="/">
 									{<h3>{config.siteTitle}</h3>}
-									
 								</Link>
-							</span>
+							</span> */}
 						</div>
 						
 						<nav className={styles.navigation}>
@@ -83,9 +83,10 @@ export default class Navigation extends Component {
 					</Fade>
 				</Headroom>
 				<div className={styles.mobileNav}>
-					<div className={styles.mobileNavName}>
+				<Link to="/"><Logo260/></Link>
+					{/* <div className={styles.mobileNavName}>
 						<h3>{config.siteTitle}</h3>
-					</div>
+					</div> */}
 					<div className={styles.menu}>
 						<Menu
 							isOpen={this.state.menuOpen}
@@ -93,7 +94,8 @@ export default class Navigation extends Component {
 							width={'100%'}
 						>
 							<Link to="/" onClick={() => this.closeMenu()}>
-								<h1>{config.siteTitle}</h1>
+								{/* <h1>{config.siteTitle}</h1> */}
+								<Logo260/>
 							</Link>
 							<Link
 								to="/about"
@@ -110,7 +112,7 @@ export default class Navigation extends Component {
                 Contact
 							</Link>
 							<div className={styles.mobileNavSocialMedia}>
-								<a
+								{/* <a
 									href="https://www.instagram.com/lekoarts.de"
 									target="_blank"
 									rel="noopener noreferrer"
@@ -130,7 +132,7 @@ export default class Navigation extends Component {
 									rel="noopener noreferrer"
 								>
 									<FaDribbble />
-								</a>
+								</a> */}
 							</div>
 						</Menu>
 					</div>
