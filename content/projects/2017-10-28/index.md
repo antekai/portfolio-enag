@@ -13,5 +13,3 @@ service: "Web development"
 ##Vladimir - Liondos
 
 ##TestingAxios
-
-##ToDoApps
