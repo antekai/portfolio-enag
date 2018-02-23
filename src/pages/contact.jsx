@@ -18,7 +18,7 @@ export default class Contact extends React.Component {
             
 			
 					</p>
-					<Fsform />
+					
 					
 				</Container>
 				<Footer />
