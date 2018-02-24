@@ -1,7 +1,7 @@
 @import "../../../config/_variables.scss";
 
 .wrapper {
-	margin: 0em 15%;
+	margin: 0 15%;
 	align-items: center;
 	display: flex;
 	
@@ -100,4 +100,7 @@
 	a:not(:first-child) {
 		margin-left: 1.5rem;
 	}
+}
+.logo:hover{
+	fill: $brand-secondary;
 }

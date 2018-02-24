@@ -32,10 +32,10 @@ export default class Navigation extends Component {
 					<Fade down duration={2000} className={styles.wrapper}>
 					
 						<div className={styles.name}>
-						<Link to="/"><Logo260 /></Link>
+						<Link to="/"><Logo260 className={styles.logo}/></Link>
 							{/* <span>
 								<Link to="/">
-									{<h3>{config.siteTitle}</h3>}
+									{<h3>{config.headerTitle}</h3>}
 								</Link>
 							</span> */}
 						</div>
@@ -85,7 +85,7 @@ export default class Navigation extends Component {
 				<div className={styles.mobileNav}>
 				<Link to="/"><Logo260 width="2.5em" height="2.3em"/></Link>
 					{/* <div className={styles.mobileNavName}>
-						<h3>{config.siteTitle}</h3>
+						<h3>{config.headerTitle}</h3>
 					</div> */}
 					<div className={styles.menu}>
 						<Menu
@@ -95,7 +95,7 @@ export default class Navigation extends Component {
 						>
 						<Logo260 width="3em" height="3em" fill="#fff"/>
 							<Link to="/" onClick={() => this.closeMenu()}>
-								{/* <h1>{config.siteTitle}</h1> */}
+							 {/* <h1>{config.headerTitle}</h1> */}
 								
 							</Link>
 							<Link
