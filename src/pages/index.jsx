@@ -26,10 +26,10 @@ export default class Index extends React.Component {
 						<Icon icon="react" />
 						<Icon icon="graphql" />
 						<Icon icon="git" />
-						<Icon icon="bootstrap" />
+						{/* <Icon icon="bootstrap" />
 						<Icon icon="sass" />						
 						<Icon icon="photoshop" />
-						<Icon icon="illustrator" />
+						<Icon icon="illustrator" /> */}
 					
 					</div>
           
