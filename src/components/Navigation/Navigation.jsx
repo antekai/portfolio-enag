@@ -82,6 +82,8 @@ export default class Navigation extends Component {
 						</div> */}
 					</Fade>
 				</Headroom>
+				
+				{/* --- Mobile Nav ---- */}
 				<div className={styles.mobileNav}>
 				<Link to="/"><Logo260 className={styles.logoMobile} width="2.5em" height="2.3em"/></Link>
 					{/* <div className={styles.mobileNavName}>
