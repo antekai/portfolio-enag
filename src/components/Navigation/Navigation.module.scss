@@ -63,10 +63,11 @@
 .mobileNav {
 	background-color: $background-color;
 	display: none;
-	height: 50px;
+	height: 55px;
 	position: fixed;
 	width: 100%;
 	z-index: 100;
+	box-shadow: 0 8px 6px -6px;
 	@include for-phone-only {
 		display: block;
 	}
@@ -105,5 +106,5 @@
 	fill: $brand-secondary;
 }
 .logoMobile{
-	margin: 4px 0 0 8px; 
+	margin: 3px 0 2px 15px; 
 }
