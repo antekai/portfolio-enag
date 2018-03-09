@@ -10,6 +10,3 @@ service: "Web development"
 **URL:** http://d3599lednt2jor.cloudfront.net/  
 **Stack:** React.js, Serverless framework (Amazon Web Services)
 
-##Vladimir - Liondos
-
-##TestingAxios
