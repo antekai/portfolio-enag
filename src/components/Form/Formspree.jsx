@@ -18,7 +18,7 @@ const Fsform = () => (
 			<h3>Contact form</h3>
 			<form action="https://formspree.io/antekai00@gmail.com" method="POST">
 				<input type="text" name="name" placeholder="Your name.." />
-				<input type="email" name="_replyto" placeholder="Your e-mail.." />
+				<input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,20}" name="_replyto" placeholder="Your e-mail.." required/>
 				<textarea name="Your message..." placeholder="Your message"></textarea>
 				<input type="submit" value="Send"/>
 			</form>
