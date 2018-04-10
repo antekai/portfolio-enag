@@ -4,9 +4,8 @@ import Header from '../components/Header/Header'
 import Container from '../components/Container/Container'
 import Footer from '../components/Footer/Footer'
 import config from '../../config/SiteConfig'
-import Fsform from '../components/Form/Formspree'
+import FormNetlify from '../components/Form/FormNetlify'
 import Hero from '../components/Hero/Hero'
-
 
 export default class Contact extends React.Component {
 	render() {
@@ -15,10 +14,9 @@ export default class Contact extends React.Component {
 				<Helmet title={`Contact | ${config.siteTitle}`} />
 				<Hero title="Contact" subtitle="Just do it!" />
 				<Container text>
-					<Fsform />
-					
+					<FormNetlify />
 				</Container>
-				
+
 				<Footer />
 			</div>
 		)
