@@ -2,7 +2,6 @@ import React from 'react'
 import { FaLinkedin, FaGithubSquare, FaCodepen } from 'react-icons/lib/fa'
 import { GoOctoface, GoMail, GoHome, GoPerson } from 'react-icons/lib/go'
 import styles from './FormNetlify.module.scss'
-import ContactInfo from './ContactInfo'
 import ContactInfoBox from './ContactInfoBox'
 import Logo260 from '../Icons/Logo260'
 
@@ -112,7 +111,6 @@ export default class FormNetlify extends React.Component {
 					</p>
 					<p>{this.state.notification}</p>
 				</form>
-				{/* <ContactInfo /> */}
 			</div>
 		)
 	}

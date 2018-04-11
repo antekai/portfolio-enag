@@ -4,8 +4,8 @@ import Header from '../components/Header/Header'
 import Container from '../components/Container/Container'
 import Footer from '../components/Footer/Footer'
 import config from '../../config/SiteConfig'
-import FormNetlify from '../components/Form/FormNetlify'
 import Hero from '../components/Hero/Hero'
+import FormNetlify from '../components/Form/FormNetlify'
 import ContactInfoBox from '../components/Form/ContactInfoBox'
 export default class Contact extends React.Component {
 	render() {
