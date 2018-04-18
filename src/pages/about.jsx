@@ -11,7 +11,11 @@ export default class About extends React.Component {
 	render() {
 		return (
 			<div className="container about-container">
-				<Helmet title={`About | ${config.siteTitle}`} />
+				<Helmet title={`About | ${config.siteTitle}`} > 
+				<script type='text/javascript'>
+(function(){ var widget_id = '2m5VQ6KX77';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+				</Helmet>
 				<Hero title="About" subtitle="Andreas Teneketzoglou" />
 				<Container text>
 					
