@@ -13,7 +13,7 @@ export default class ProjectListing extends React.PureComponent {
 				cover: projectEdge.node.frontmatter.cover.childImageSharp.sizes,
 				title: projectEdge.node.frontmatter.title,
 				service: projectEdge.node.frontmatter.service,
-				imageURL: projectEdge.node.frontmatter.cover.childImageSharp.sizes.src,
+				imageURL: projectEdge.node.frontmatter.cover.childImageSharp.sizes.src
 			})
 		})
 		return List
@@ -48,6 +48,7 @@ export default class ProjectListing extends React.PureComponent {
 									{project.service}
 								</div>
 							</Link>
+							{/* <h1 key={project.title}>{project.title}</h1> */}
 						</div>
 					</div>
 				))}

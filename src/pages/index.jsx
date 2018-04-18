@@ -16,7 +16,7 @@ export default class Index extends React.Component {
 				<Helmet>
 					<title>{config.siteTitle}</title>
 				</Helmet>
-        
+
 				<div>
 					<Hero title="Web Developer" subtitle="Andreas Teneketzoglou" />
 					<div className="container__icons">
@@ -26,13 +26,7 @@ export default class Index extends React.Component {
 						<Icon icon="react" />
 						<Icon icon="graphql" />
 						<Icon icon="git" />
-						{/* <Icon icon="bootstrap" />
-						<Icon icon="sass" />						
-						<Icon icon="photoshop" />
-						<Icon icon="illustrator" /> */}
-					
 					</div>
-          
 
 					<ProjectListing projectEdges={projectEdges} />
 				</div>
@@ -43,31 +37,31 @@ export default class Index extends React.Component {
 }
 
 export const pageQuery = graphql`
-  query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            service
-            title
-            client
-            cover {
-              childImageSharp {
-                sizes(
-                  maxWidth: 850
-                  quality: 90
-                  traceSVG: { color: "#f3f3f3" }
-                ) {
-                  ...GatsbyImageSharpSizes_withWebp_tracedSVG
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+	query IndexQuery {
+		allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+			edges {
+				node {
+					fields {
+						slug
+					}
+					frontmatter {
+						service
+						title
+						client
+						cover {
+							childImageSharp {
+								sizes(
+									maxWidth: 850
+									quality: 90
+									traceSVG: { color: "#f3f3f3" }
+								) {
+									...GatsbyImageSharpSizes_withWebp_tracedSVG
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 `
